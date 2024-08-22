@@ -1,6 +1,8 @@
 package main
 
-import GIFBot "GIFBot/scripts"
+import (
+	GIFBot "GIFBot/scripts"
+)
 
 func main() {
 	GIFBot.Launch()

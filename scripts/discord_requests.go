@@ -11,12 +11,12 @@ import (
 
 // launch the bot
 func Launch() {
-	session, err := discordgo.New("DISCORD_BOT_TOKEN")
+
 	if err != nil {
 		fmt.Println("Session creation failed : ", err)
 		return
 	}
-	session.Identify.Intents = discordgo.IntentsGuildMessages | discordgo.IntentsMessageContent
+	session.Identify.Intents = discordgo.IntentsGuildMessages | discordgo.IntentsDirectMessages | discordgo.IntentsMessageContent
 
 	session.AddHandler(messageCreate)
 
@@ -38,7 +38,6 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 	if m.Author.ID == s.State.User.ID {
 		return
 	}
-	//answer := GifRequest(MessageToBot(m.Content))
-	fmt.Println(m.Content)
-	s.ChannelMessageSend(m.ChannelID, "HA")
+	answer := GifRequest(MessageToBot(m.Content))
+	s.ChannelMessageSend(m.ChannelID, answer)
 }
