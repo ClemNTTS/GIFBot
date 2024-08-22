@@ -11,7 +11,7 @@ import (
 
 // launch the bot
 func Launch() {
-	session, err := discordgo.New("Bot " + "MTI3NjE2MDY0NDYyNTk5MzgxMQ.GPDJLi.0nSSvGNZbNJFvT2whMpCacgoR2hVHPisssHrK0")
+	session, err := discordgo.New("Bot " + "bot token")
 	if err != nil {
 		fmt.Println("Session creation failed : ", err)
 		return
