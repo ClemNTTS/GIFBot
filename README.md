@@ -1,5 +1,3 @@
-Bien sûr ! Voici le texte complet en Markdown pour ton `README.md` :
-
 ```markdown
 # GIFBot
 
@@ -81,7 +79,7 @@ Les contributions sont les bienvenues ! Si vous souhaitez ajouter des fonctionna
 
 ## License
 
-Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
+Distribué sous la licence MIT.
 
 ## Contact
 
@@ -92,14 +90,3 @@ Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
 
 Merci d'avoir utilisé GIFBot ! N'hésitez pas à poser des questions ou à demander de l'aide si nécessaire.
 ```
-
-### Points Importants à Noter :
-
-- **Installation** : Inclut les étapes pour cloner le dépôt et installer les dépendances.
-- **Configuration** : Détails pour configurer le bot avec le jeton et les permissions nécessaires.
-- **Exécution** : Instructions pour démarrer le bot.
-- **Contribuer** : Guide pour contribuer au projet avec des étapes claires.
-- **License** : Indique la licence du projet.
-- **Contact** : Informations pour contacter le créateur.
-
-Assure-toi de remplacer les détails spécifiques comme les liens, l'email, et le jeton du bot avant de partager le `README.md`.
