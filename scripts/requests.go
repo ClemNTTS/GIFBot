@@ -3,6 +3,7 @@ package GIFBot
 import (
 	"encoding/json"
 	"fmt"
+	"math/rand/v2"
 	"net/http"
 	"net/url"
 )
@@ -27,7 +28,7 @@ func GifRequest(search string) string {
 	params := url.Values{}
 	params.Add("q", search)
 	params.Add("api_key", GIPHY_API_KEY)
-	params.Add("limit", "1")
+	params.Add("limit", "5")
 	reqURL.RawQuery = params.Encode()
 
 	resp, err := http.Get(reqURL.String())
@@ -49,7 +50,7 @@ func GifRequest(search string) string {
 	}
 
 	if len(giphyResponse.Data) > 0 {
-		return giphyResponse.Data[0].URL
+		return giphyResponse.Data[rand.IntN(len(giphyResponse.Data))].URL
 	} else {
 		fmt.Println(giphyResponse)
 		return "https://giphy.com/gifs/ThisIsMashed-among-us-sus-amongus-XwsIv9WXc0FUUroO2H"
