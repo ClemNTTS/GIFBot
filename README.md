@@ -1,4 +1,4 @@
-```markdown
+
 # GIFBot
 
 GIFBot est un bot Discord développé en Go qui répond aux messages des utilisateurs avec des GIFs pertinents basés sur le thème des messages. Il utilise la bibliothèque `discordgo` pour interagir avec l'API Discord et `prose` pour le traitement du langage naturel.
@@ -89,4 +89,3 @@ Distribué sous la licence MIT.
 ---
 
 Merci d'avoir utilisé GIFBot ! N'hésitez pas à poser des questions ou à demander de l'aide si nécessaire.
-```
