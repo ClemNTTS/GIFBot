@@ -83,8 +83,8 @@ Distribué sous la licence MIT.
 
 ## Contact
 
-- **Nom** : Clément [@ClemNTTS](https://github.com/ClemNTTS)
-- **Email** : [clément@example.com](mailto:clément@example.com)
+- **Nom** : [@ClemNTTS](https://github.com/ClemNTTS)
+- **Email** : [karmaclem@gmail.com](mailto:karmaclem@gmail.com)
 
 ---
 
